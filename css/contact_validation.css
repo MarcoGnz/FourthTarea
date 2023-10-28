@@ -1,0 +1,173 @@
+/* Establecer la altura del elemento HTML en 100% de la altura de la ventana */
+html {
+  height: 100%;
+}
+
+/* Configurar el cuerpo con posición relativa, margen inferior y altura mínima */
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+
+/* Estilo para centrar elementos de texto */
+.center {
+  text-align: center;
+}
+
+/* Estilo para la sección interna de la página */
+.section_inner {
+  padding: 50px 10% 30px;
+  /* Relleno superior, izquierdo y derecho de 50px, relleno inferior de 30px */
+}
+
+/* Estilo para el título de la sección */
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  /* Usar la fuente 'Noto Serif JP' */
+  text-align: center;
+  /* Centrar el texto */
+  margin-bottom: 50px;
+  /* Margen inferior de 50px */
+}
+
+/* Estilo para la tabla con clase 'contact' */
+.contact {
+  width: 100%;
+  /* Ancho al 100% */
+  margin-bottom: 30px;
+  /* Margen inferior de 30px */
+}
+
+/* Estilo para las filas de la tabla */
+.contact_line {
+  height: 50px;
+  /* Altura de 50px */
+  line-height: 50px;
+  /* Altura de línea de 50px */
+}
+
+/* Estilo para la celda de la tabla con clase 'contact_sign' */
+.contact_sign {
+  width: 25%;
+  /* Ancho del 25% */
+  background: #beb9b7;
+  /* Fondo de color #beb9b7 */
+  border: solid 1px #beb9b7;
+  /* Borde sólido de 1px en el mismo color */
+  text-align: left;
+  /* Alineación de texto a la izquierda */
+  padding: 0 20px;
+  /* Relleno izquierdo y derecho de 20px */
+}
+
+/* Estilo para la celda de la tabla con clase 'contact_input' */
+.contact_input {
+  width: 75%;
+  /* Ancho del 75% */
+  border: solid 1px #beb9b7;
+  /* Borde sólido de 1px en el mismo color */
+}
+
+/* Estilo para la zona de contenido con altura de 100px */
+.contact_content {
+  height: 100px;
+}
+
+/* Estilo para campos de entrada, select y áreas de texto dentro de 'contact_input' */
+.contact_input input,
+select,
+textarea {
+  border: none;
+  /* Sin borde */
+  width: 99%;
+  /* Ancho del 99% */
+}
+
+/* Estilo para campos de entrada y select con altura de 50px */
+.contact_input input,
+select {
+  height: 50px;
+}
+
+.contact_input_error {
+  background: rgba(230,169,171,.5);
+  height: 50px;
+  border: solid 1px #beb9b7;
+  width: 99%;
+}
+
+.contact_input_error input {
+  background: rgba(230,169,171,.5);
+  height: 50px;
+  border: none;
+  width: 99%;
+}
+
+/* Estilo para áreas de texto con altura de 100px */
+.contact_input textarea {
+  height: 100px;
+}
+
+/* Estilo para el área 'personal_information' con fondo, relleno, altura y desplazamiento */
+.personal_information {
+  background: #e6e6e6;
+  /* Fondo de color #e6e6e6 */
+  padding: 10px;
+  /* Relleno de 10px */
+  height: 100px;
+  /* Altura de 100px */
+  overflow: scroll;
+  /* Desplazamiento vertical si es necesario */
+  margin-bottom: 20px;
+  /* Margen inferior de 20px */
+}
+
+/* Estilo para el área de botones con pantalla flexible, justificación y relleno */
+.contact_btn_area {
+  display: flex;
+  /* Mostrar como pantalla flexible */
+  justify-content: center;
+  /* Centrar el contenido horizontalmente */
+  padding: 20px 0;
+  /* Relleno superior e inferior de 20px, sin relleno izquierdo y derecho */
+}
+
+/* Estilo para botones con relleno, sin borde, y bordes redondeados */
+.contact_btn {
+  padding: 10px 20px;
+  /* Relleno de 10px arriba/abajo y 20px izquierda/derecha */
+  border: none;
+  /* Sin borde */
+  border-radius: 5px;
+  /* Bordes redondeados de 5px */
+}
+
+/* Estilo para el segundo botón cuando está junto a otro botón, con margen izquierdo */
+.contact_btn+.contact_btn {
+  margin-left: 10px;
+  /* Margen izquierdo de 10px */
+}
+
+/* Estilo para el botón de envío con fondo y color de texto */
+.submit_btn {
+  background: #9852a5;
+  /* Fondo de color #9852a5 */
+  color: #fff;
+  /* Texto de color blanco (#fff) */
+}
+
+/* Estilo para el botón de reinicio con fondo */
+.reset_btn {
+  background: #e6e6e6;
+  /* Fondo de color #e6e6e6 */
+}
+
+/* Estilo para el área de mensaje de alerta con colores de texto y fondo */
+.alert {
+  color: #d14539;
+  /* Texto de color blanco (#fff) */
+  padding: 5px;
+  /* Relleno de 5px */
+  ;
+}
